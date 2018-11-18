@@ -1,0 +1,24 @@
+<div class="container ">
+ <div class="info-shops">
+   <h5>Магазин: <span>{{shops[size].text}}</span> </h5>
+   <p (click)="makePEdit()">Адрес: <span>{{shops[size].adress}} </span> </p>
+   <p>Время работы: <span>{{shops[size].timeWork}} </span> </p>
+ </div>
+ <div class="info-goods flx">
+   <div class="row">
+     <h4>{{shops[size].goods[0].name}} </h4>
+     <p> Описание: {{shops[size].goods[0].description}}</p>
+     <p>Цена: {{shops[size].goods[0].prace}} </p>
+   </div>
+   <div class="row">
+     <h4>{{shops[size].goods[1].name}} </h4>
+     <p> Описание: {{shops[size].goods[1].description}}</p>
+     <p>Цена: {{shops[size].goods[1].prace}} </p>
+   </div>
+   <div class="row">
+     <h4>{{shops[size].goods[2].name}} </h4>
+     <p> Описание: {{shops[size].goods[2].description}}</p>
+     <p>Цена: {{shops[size].goods[2].prace}} </p>
+   </div>
+ </div>
+</div>

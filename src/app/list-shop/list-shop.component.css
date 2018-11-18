@@ -1,0 +1,29 @@
+.wrap-list-shop{
+  display: flex;
+  height: 60px;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+  background-color: white;
+  border: 1px solid #dfdfdf;
+  cursor: pointer;
+  overflow: hidden;
+}
+.wrap-list-shop:hover {
+  transform: scale(1.08);
+  transition: 1s all;
+}
+.number{
+  flex: 1;
+  margin-left: 10px;
+}
+.nameShop{
+  flex: 4;
+}
+.arrow{
+  margin-right: 20px;
+  font-size: 22px;
+}
+@media (max-width: 900px) {
+  
+}

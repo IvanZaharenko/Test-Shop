@@ -1,0 +1,19 @@
+.cont{
+  display: flex;
+  flex-direction:row-reverse;
+}
+app-map {
+  flex: 3;
+}
+.wrap-shops{
+  flex: 1;
+  border: 1px solid #dfdfdf;
+  background-color: #dfdfdf;
+}
+
+@media (max-width: 1000px) {
+  .cont{
+    flex-direction:column-reverse;
+
+  }
+}

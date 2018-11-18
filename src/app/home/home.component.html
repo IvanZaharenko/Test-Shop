@@ -1,0 +1,10 @@
+<div class="cont">
+  <app-map></app-map>
+  <div class="wrap-shops">
+    <app-list-shop
+      *ngFor="let u of shops"
+      [shop] = "u"
+    >
+    </app-list-shop>
+  </div>
+</div>

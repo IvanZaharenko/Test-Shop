@@ -1,0 +1,23 @@
+.container{
+  display: flex;
+  flex-direction:row-reverse;
+}
+app-map {
+  flex: 3;
+}
+.wrap-shops{
+  flex: 1;
+  border: 1px solid #dfdfdf;
+  background-color: #dfdfdf;
+
+}
+.nav{
+  float: right;
+  width: 200px;
+  background-color: rgba(0,0,0,0.2);
+  text-align: center;
+}
+body{
+  margin:0;
+  padding: 0;
+}
